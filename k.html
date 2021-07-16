@@ -1,0 +1,547 @@
+<html>
+<head>
+<title>ncert stuffs</title>
+
+
+<!-- add icon link -->
+        <link rel = "icon" href = 
+"https://lh3.googleusercontent.com/XDZgl3t91W3APksUGzJdY_NxdqNFzgYK3gFfcaEBRyBAbYeU-PMHNidP7UTr8hkefpN-hQ=s90" 
+        type = "image/x-icon">
+          
+</head>
+<style>
+
+a {
+  color: black;
+  font-size: 30px;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #04AA6D;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+body {
+  background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTERUTEhMWFRUXGRkaFxgYGRgaFxsYHhoZGhcaGhsZHSggHRolHRkaITEhJSkrLi4uGx8zODMtNygtLisBCgoKDg0OGxAQGzUlICYtNS0tLS8tLS0tLS8vLy0tLS8tLS0tKy0vLS8vLS8vLS8vLS0tLS0uNS0tLS0tLy0tLf/AABEIAKAAoAMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAACAQMABAf/xAAyEAACAQMCBAQGAgMAAwEAAAABESEAAjEDQRJRYXEiMoGRBKGxwdHw4fETQlJicpIj/8QAGAEBAQEBAQAAAAAAAAAAAAAAAAECAwT/xAAbEQEBAQEBAQEBAAAAAAAAAAAAARExIUFhcf/aAAwDAQACEQMRAD8A+nWXQI9/3pScrieY2rrEwTJDYfWpY5uFqDQfea4PMV2pz9+vWsrrkeEkncckuYXzrbS1bVcSOQDwfzRsLgkLZQe8U06z1BhCPu/oa7j5E9p5HEU5BLXtB9vWlcCTcABMk4j81ExSSVuUGmue9ZFwcASNp/XWujYSgTtkcxsTWFrR4gwEh8wRVWlbeITu5g07bf5GatvCbnm6YwhtUACuK8JMHO235oQbojhez5nNMwQTEAdE5qWEMsEABM8hjNI3SHg7lPn9BSAabAAS3Bu7jHtVuvlcfFBjau0hgnIZIBHMbCusB83CgwETiSzQK7VO/u9+RrG65HhJJUjCXoq30ta1XE4MB4+WaFpcEjhlKD8qadZamyEdt39DS4uRPb36VQxcWvaD7etMg+JAInNRMS5lbnnR5Exyp6QcHlkfk0AeaUf3VWlqwGHjJxtXWB2m05Bbe3anqNECR9MRms9S6eHI3PLmH7UL0TfktkQAnLRphgmFy33WBPOjb4kAhuXK7fu9T/DuIBMho8Mn80mJ674jQ5kE/VA/ep8OOK1ggWtL0l1QbgbQcMmM/jfFaXWu42wwcjqOWNzScM2jqXcKtJBRkA7dt80brEiSh4U1AdXWsnxJQ5n59Kp0gQwQS0UR6ZKMLap0+oUrQQSF5sBFffakNIF222kcyT+TXalpcK4AYBwYYipwkG0GQySIXXrS/q/S1AQxD3lb7zia67RJgny2lnoR+zR0fiFeeEXXDcnAFXS+J4SblxXECZHh39Y+dWGwtdgcVnuRHoqmmXYbbiyC9sdudaah8NwtZ27M4zWWrezw5GCS2N0SD2ot7of5N2yIFqcwDtTDBJS5YMtYEjejaDcgCBuXJHb7967/AALEByHPDJpMZ9T4jR5kPc80OfepoDithANfLeqOIG0HEmM/vancPFwlZ27cvWnwzamoUrWCsztnnia67T5mAOmKhKukMbz+aVtwDugkwe1FK1GRw2jfrPIUCmLQ5SJRBzMelS28OIQz05GppMBgbH6/LJomjbanMgrEforS4ACI6bGS2/2aJ0ijaLn/ADyL6UeC64lpPcM42jFE54R1LvNcdNpAMxGBs6zsttJBUrnuObxvWmoRabiQCRywQUZ6pVL7Bk3C20iD9jbUpW2vaFxKWCum+OdLc3Ip2hAbiXhqloCy7wu24PYAAfuKN+mLLy/Lseh2Y+tJMdP13wxBEoQYcGckbTXn1SAEiZDDEgDYCevpWlt1oRHoeeUDH3qWa5APEgT9LuvSjNuzHaiI8LHIGASf4faneEEUyv8Aks7gx1rKyy4kWNCQ5zsTNQ2cBbNwauiI6c+tE1qQ1dbw22xxddjgVEGLbcnykoh+KflQs1A0ABwgPs2R3rtGwgO0YB+vyKJqmjbZwuQwUY6Z9CfpWlwtACjpsmW3UOiQDaLn7MNYL5iibbrjc0nuCTjaMUTM8X/Jdm46bSAeIwNnWYFsFSue45itLyLSSQCRy3cz1qXdbgAceuyqLWmuIfqsDrincM9wNjPtU0rRd4WCHkQHRvs4LiSSQ/3+6RqusIKYKOPlJrz6guIJGwXo85xWt15BKkHDEo570tQhstYGV2qs2MrSQfN/9KVgzit/8tzFyQURvLaE0NXTRkZG8qeeQZqjJRwcPMf+VQnjtXSE8V2AAgf5XOstAWi7itBI4YJAz39qd3xAJnI3A9EPZ12loLy+XAPOYp9Sz3Y00eEmJHiJgEZhdZqfD322+EnolwoNkcTqXa02jhjmkQXsTnFZgXW3WQOqz26mrq6d9oYFwQPlUjZEqlcPARxAoIQAdxB5GaN/EtyCkxKR/NPV1TceIAqA9oIzPWkB1PhyVLQ22jPyqX6o2BJWA1bjK3jFTV1QPCSRBzPRR3rtG/UEAg4xAAOfWaJ5vh6GowIJeD2O/wDdeXU4yyBzEYXPOK2Oorit8AhQYPJ4p6gAkk8OBB3/AKpSzZ6xsuIPm5+ZSvKZEV6Dq3MXJBR3ltCXR1dIgshkhzKnLyD2rgWTwnBwyXG3FUWbE1NITxHYBA788pZoaQtBJGFDTdK7XBM5G4Hoh2VdZpryjw4B2zFC92FbY+uXAXSusvtEZ6Y4ZmRUv1hASHPkQaNhvBCW2ORyO9XTVHELQAiuf2q8eASTkKCH2rhYB5gIPy2HtU0wJNs8V0rYcwdqkC1/iWUciLSGObeYo6ohMk7SoI3Pc4pG4LFz75lbRV09O/wjPikxsen0qnWXxWihaSIGUH64kGnq3sf7ECEGH1SSDPypi1krI/2wBkvMgk1NEkS0C5PovmaGGTcWSjckeVqPs6w1rSVcxGwefWusAufjuIeBzMyTFXT07ifH4rT1QzBfah07dSBw+JkRh9eazRsAEl5wibRnvvFMriBIZEADCaz2NZW3hki1gk77TM43qeha0XG1AbMIZULrW2rpjcsq0BgLPSsDqEHxWqExPUNGt7yAjaGNgQ5589s1Ysecad9totAtdssjHaldrEoE8WQcEPeO6qaeigRfaIIJL9guwq6dgm63/a6UoG6O21ScRdf4viyQxFpDEy3mIo6oghknaVBAyY3OKZuAH+z79VtFdp6d44RnxSY2PT6VT2sviNJC0qBlD54mnfc+ZUKV3WEJpi1krI3wBnrIJNDSJDOxc+y+ZoYd5JJw0idhPLDo6tjkl4UdaFpB3K6c8hmtBaX/ANCPfai9Zgk2hFrzGV0VLTb4bn9Ap+c1yIgYWfl964E8mdv63prLhrHi8SD6tYj95V19p83EZMRuzPZGpfpWoRd1fUgOa0tbRI4chALm84CHvT61l+gZsk7nB/12g+1afD3F8xMSUD6dMVlrXwCCRLW+URnD6b1rYbuHw538SmDsFQnWevqeEEggOIUwhG+a20TdwNgJiSUvzWQsO+/Vos8WRE103BMcITkSSo9DUJS09V2jhm4BE8u0/qrhclYvFniIyiza6lukrigBbw5Gxwz6GuOndcwDBCbB+z3q6eu1jdcZtTBzJ2G21U6PgPCZGDGQP7rLRCYJhEjJ33PKKOgQbS7dzIHR5GNqVNcrkA2B5skdAKekLmRcwHzQWxczIiuNxFotcCCW3gRGJq23kCQzsn7gbjFP6kdbrnidy8W7axHJ9uVdfafMyiYg5Zlcpq6mlbw2xc2HxRyDRphtEg25CAXN52Q96fWsv1m3Znc4P+vY+2KejcXh+8Dl8qz1b4YJG6U5RGcPpvWlouNp4fUveOQoToa15IDBAL+3L1p22nggojmYis7LTg/mXOetdYWCCAQOXXaKiSlp3CIPr3/ili5cbjAx6nmq7TIYMkhsMDftXWPPChADPXP81VUFQZClkEM89x86x/yC27gMqRgscoXz5V6NDXtVxIgwGl/NC24XMG4C2ULYPfpvTcXvKzN21tvTcS+7Ro2XJq4vffYwyOlaBi4tF/8AiUccgetPUtJN1otEkEnp+cVGccWSMkoYc75O35rMFL/UAsNBmIx3rfQsJQJGPMOmxPWvKCRaQQISCfMgjDqrVtuCh3iWD+/flWwtLAaWfTDjcV1nCboPindIZHoK4CLyhwkwcowI39aEgEAIcDcM7mTG6aqgkXAkEdvKADMfuaumQSQQQAAGeQ/9vxVN7KuMHcpzPJYAqTomndztTwbu4/D9a4lXH/8ATiYKAxyk867RPluLJAJuAIEsOAPWus4j4uFCAAT1M/zVUrblmQpZFwBOx3FYf5BbdwGVIwY5Ql68q9Ohr2q4nBgApfLNZ23C5g3AWyhbB7/Wm4X3lZG4Ytt+0v6GusKauPXfnDVMMXFkF9IOOQ7077XxAWhEt/u9RMQ7QzE/PfajaUQfKPbk3Wmja4OF5h06mshdsUtvq6pT1ig7eWTjausDtNu4JL/ilqYuAkfTEVnqXTw5G5O3ME+1Cib92yIAW7Rp2k2koLCxd0wO5o2klAIblyu1QaO4MEyGibZP6KTE9d8T8P8A9EE79UDv7VPhxxW5FtrS7CXh1QSDaDhkwnWhDu4Yg5HUcvU0luGS0dS7hVpPEirgDtJxvmjdpoh+XwppgMe8Cu1bZ8SRTmX60jpQwm0ZHpkowtqnSxCAgCyF5sDbfvtS/wAVpdttpHMs/Qmu1AXCIA2cYYj1qAEG0GQyThdetL+r9K+0hj/YTlOd5xJq36RPhJ8tpZ6Efs0NH4lXlA3DcnAFXS+J4SblxXEZDHh39Yqymxp8QUOKz3Iijpl2G24sgm7bHbrT1LvDcLWfszjNZat7PDkYJLY6Eg9qLe6HHu2RAtW+DtTtYcLCxdumhjJohlAIbncjt1596n+BYKBukNEiT+aTGfXfEaH/AEQTueaH9VNC3itjwhr2EuqCQbQcZjNMjxIrP25etJwyWpeeFWsEjIe3blNddpczAHTBqG5XSGN5/NW25O6CSgVy9aKVsyOEDfrQK8ofRyMGYrrSHhL6cjR04DA/X8s0TUxvLX72p3AAR7bEbt1DYQOEEn95vpUFlxJaTlhn06UTHX33ea42YQA2jAhOhbbawUyl6jm/WtbiASUyOWJmaJt3NwFpEH2g21FrbWENSCD0W+K45N3W2BzEvDrtHhu8LFweyCOa46fDcX5dj/IpGl+HuBG2DDTnJFYaiAkXGQwxgDYfuKYNoIPtlHk6lmugWBP0PptRLfMdq4hjoYDNaX2oI5K/5IJ3GOtZW23PhMCQw/RzVNvCWCSGjH259aIRGDbw2iOLrscVIYtGTglEOZo2GUgOFPtld67SsQdvKek/IzVNEQ5DBX9ev2p3i0CPbZbt1xsQNoJPtvyL6UeC4ktJ7yfSMUTMU33ZJsaQAcRtFZgWwUWue46VpcgSVjlhZqdSQAcf1UWtNYQ9+W3WlcN+3LPt1o6YB8LY6c642cNxOQ1+/mijbcwPr61mRdP9BUySIGP0feqTzfTlVQLbyDn3+Wa1N13mkco3l4FC/TAUH175p2tphfx1qLNG+wEF3egP59qnw6BYDCKe0V2prDLIU4nKIpadhXh92pfQUT744EECCp2HOF70tC5BMcpiG80eIwCP4LnIohsYQTS3UVTSggfo2mqccLaEEhYJ35ZqG0gmPCoK9Poat7uawYbCzuPWkB1NIlMbH7TVuShsew/VQF2xMI9eiK2qaF1yITnIETn60TYWncSBk9fWsiLiTC7QFz/itDfwwO3oYjnSJWQ+UGhgW6hF2c8+mM1rddd5pA2jdl4FHU0gEUXDffNINphfvOo1JYN9gRZ9AfzU0UDEhQ67U1d5jp6EUrbCvD2b61U+oQ1ET/FKwodvRetDi2OPoXNTTJxEcuuRQ1//2Q==");
+ text-align: center;
+}
+
+
+h {
+  color: green;
+  text-align: center;
+  font-family: Comic Sans MS;
+  font-size:120px;
+}
+
+
+h1 {
+  color: black;
+  text-align: left;
+  font-family:Serif;
+  font-size:60px;
+  margin: 100px;
+}
+
+pre {
+  background-color: lightgrey;
+  font-family:Serif;
+  text-align: center;
+  font-size: 25px;
+  width:700px;
+  border: 15px solid green;
+  padding: 300px;
+  margin: 100px;
+}
+
+</style>
+</head>
+</body>
+
+<ul class="topnav">
+  <li><a class="active" href="file:///C:/Users/Owner/Desktop/ncert%20stuffs/k.html">Home</a></li>
+  <li><a href="file:///C:/Users/Owner/Desktop/ncert%20stuffs/Blank%207-1%20(1).pdf">pdf</a></li>
+  <li><a href="https://twitter.com/exclusive5114">twitter</a></li>
+  <li class="right"><a href="https://instagram.com/_._x._.clusive_._?utm_medium=copy_link">Contact</a></li>
+  <li><a href="#https://www.youtube.com/channel/UCo6tdwzcz1EQFL015i8A02Q">youtube</a></li>
+</ul>
+
+<br><br><br><h><b> NCERT STUFFS  </b></h>
+<br> <br> <br> <br> <br> <br>
+
+<a href="file:///C:/Users/Owner/Desktop/ncert%20stuffs/k.html"><img src="https://lh3.googleusercontent.com/XDZgl3t91W3APksUGzJdY_NxdqNFzgYK3gFfcaEBRyBAbYeU-PMHNidP7UTr8hkefpN-hQ=s90"  style="width:400px;height:400px;" ><br>
+
+<h1><b>ncert class 11 maths chapter 1 notes -</b></h1>
+<p1> <a> <a href="file:///C:/Users/Owner/Desktop/ncert%20stuffs/Blank%207-1%20(1).pdf">don't forgot to download the pdf ...</a> </p1>
+
+<pre>
+<b>        CONTENT 📜: </b>
+
+•	What is set ? 🦋
+
+•	How to represent set 📊
+
+•	Types of sets 🧾
+
+•	Venn diagram 📈
+
+•	Operation of set 🔪
+
+
+
+
+<b>WHAT IS SET ? 🦋</b>
+
+Set is a WELL-DEFINED collection of DISTINCT OBJECTS ,
+These objects are called elements of SET ,
+
+whose elements are FIXED and cannot vary .
+Basically set doesn’t change from person to person .
+
+
+
+<b>NOTATION :📎</b>
+
+⁃	We list all elements of the set within the braces { } 
+⁃	Set are denoted by CAPITAL LETTER ( A , B , C , D …….etc ) and
+⁃	Elements by LOWER CASE letter ( a , b , c , d ….etc )
+⁃	If x is the member of set A then x ∈ A (read as x belongs to A) and
+⁃	If not the x ∈ A (read as x is not belongs to A)
+
+
+
+<b>HOW TO REPRESENT SET :📊</b>
+
+
+
+<b>Roster form</b>
+<b>Set-builder form</b>
+
+
+
+<b>ROSTER FORM🤣</b>
+
+
+⁃	In this form we listed the elements of set within the braces { } and separated by commas ( , ) ..
+
+⁃	Roster form is also known as tabular or valid form ..
+
+⁃	Order of elements doesn’t matter ..
+ e.g. { 1 , 2 , 3 }  and { 1 , 3 , 2 } are same
+
+⁃	Elements never repeat ..
+e.g. { 1 , 2 , 1 , 3 } is wrong until we write it as { 1 , 2 , 3 } 
+
+Examples of roster form👇 :
+          { 1 , 2 , 3 , 4 }  , { … -3 , -2 , -1 , 0 … etc }   ,  { A , L , O , Y } , { 1 } , { 0 } , { } etc ..
+
+
+
+
+<b>SET-BUILDER FORM⛑</b>
+
+
+⁃	In this form we listed the elements of set within the braces { } 
+                and separated by colons… we use ‘:’ in the place of ‘|’ ..
+
+⁃	Set-builder form is also known as rule method ..
+
+⁃	In this form there is an variable x ( this can be y , a , p etc ) which
+                represent the property of the set ..
+
+⁃	Set builder is in the form of { x : P(x) }  ..                                ( P is property of set }
+
+Examples of set builder form 👇: 
+         the set of A of all the natural numbers less than 100 
+         A = { x : x is a natural number less than 100 }
+
+
+
+
+<b>TYPES OF SETS🧾</b>
+
+
+•	Empty set🕳
+•	Singleton set🙍🏼♀️
+•	Finite set💰
+•	Infinite set⏰
+•	Equal set⚖️
+•	Equivalent set🔺🔻
+•	Disjoint set⚫️⚫️
+•	Subset↪️
+•	Superset↩️
+•	Power set💪🏻
+•	Universal set🌎
+
+
+
+
+<b>EMPTY SET🕳</b>
+
+⁃	A set which does not contain any element is called an empty set or valid set or null set ..
+
+⁃	This set is denoted by { } or φ..
+
+⁃	If there is an element 0 in the set then this won’t come in empty set ..
+
+Example of empty set 👇 : 
+A = {x : x is a leap year between 1904 and 1908 }
+So A = { } or φ..
+Etc..
+
+
+
+<b>SINGLETON SET🙍🏼♀️</b>
+
+⁃	A set contain only one element is called singleton set ..
+
+Example of singleton set 👇 :
+       {0} , {3} , {10} ,{ 2000} etc..
+
+
+
+
+<b>FINITE SET💰</b>
+
+⁃	A set which has no elements or defined number of elements are finite set ..
+
+⁃	All the empty sets are falls into the category of finite sets ..
+
+Example of finite set 👇 :  
+         { 1 , 2 , 3 , 4 }  , { x : x is an natural number and 4<x<7 } etc ..
+
+
+
+
+
+
+
+
+
+
+
+
+<b>INFINITE SET⏰</b>
+
+⁃	 The set which are non terminating are infinite set ..
+
+⁃	Infinite setis always denoted by only three dots ..
+
+Example of infinite set 👇: 
+        { 1 , 2 , 3 … }  ,  { …-1 , 0 , 1 … }  , { … -1 , 0  } etc ..
+
+
+
+<b>CARDINAL NUMBER 🤝</b>
+
+The number of elements in finite set is represented by n ( A ) known as cardinal number ..
+
+
+		
+<b>EQUAL SET⚖️</b>
+
+⁃	Two sets A and B are said to be equal if every element of A is also an element of B or 
+                vice Verma ,  that is equal set have exactly the same elements ..
+
+Example of equal set 👇 :
+        A = { 1 , 2 , 3 , 4 }   B = { 2 , 3 , 1 , 4 } 
+
+
+
+<b>EQUIVALENT SET🔺🔻</b>
+
+⁃	Two finite number A and B are said to be equal if the number of elements are equal ..
+
+⁃	n( A ) = n ( B )
+
+⁃	All Equal sets are Equivalent set but equivalent sets need not be equal ..
+
+Example of equivalent set 👇 : 
+A = { 1 , 2 , 3 }   and     B = { 5 , 9 , 15 } 
+Here set n(A) = n(B)
+
+
+
+<b>DISJOINT SET⚫️⚫️</b>
+
+
+⁃	Two sets that have no elements in common are disjoint set ..
+
+Example of disjoint set 👇: 
+A = { 1 , 2 , 3 }     and      B = { 7 , 4 , 0 }
+A and B are disjoint sets ..
+
+
+
+
+<b>SUBSET↪️</b>
+
+⁃	Let A and B are two sets and all the elements of set A are also in set B , 
+                then set A is subset of set B ..
+
+⁃	Subset is denoted by symbol “⊂” ..
+
+⁃	Every set is subset of itself ..
+
+⁃	The empty set is subset of every set ..
+
+⁃	If A = B then A ⊂ B  and   B ⊂ A ..
+
+⁃	If A contains n elements , then A has 2ⁿ subsets ..
+
+Example of subset 👇: 
+A = { 1 , 2 , 3 }   and    B = { 1 , 2 , 3 , 4 } 
+Here A ⊂ B 
+
+
+
+<b>IMPLIES “ ⇒ “  AND IF AND ONLY IFF “⇔“ </b>
+
+⁃	A ⊂ B if whenever a ∈ A , then a ∈ B . It is often convenient to use the symbol “ ⇒“
+                which means implies ..
+⁃	A ⊂ B if a ∈ A ⇒ a ∈ B
+⁃	When A ⊂ B and B ⊂ A ⇔ A = B
+
+
+
+
+<b>INTERVALS AS SUBSET OF R (REAL NUMBER ) :</b>
+
+⁃	An interval is a set of all real numbers between a given pair of numbers ..
+⁃	Intervals can be different types which can include either endpoints or both endpoints 
+                or neither endpoints ..
+⁃	An endpoint of an interval is either of the two points that mark the endpoint of the
+                line segment ..
+⁃	The interval of numbers between a and b , including a and b , is denoted [a,b] ..
+⁃	The interval of numbers between a and b , not including a and b , is denoted (a,b) ..
+⁃	The interval of numbers between a and b , not including a but including b , is denoted (a,b] ..
+⁃	The interval of numbers between a and b , not including b but including a , is denoted [a,b) ..
+⁃	The interval ‘ [ ] ‘ is closed interval ..
+⁃	The interval ‘( ) ‘ is open interval ..
+⁃	The closed intervals ‘[ ]’ means ≤ or ≥ ..
+⁃	The open intervals ‘( )’ means < or > ..
+
+Example of closed and open intervals 👇:
+ 
+<img src="data:image/png;base64,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"  style="width:800px;height:400px;" >
+
+<b>MEMORY TIP :🤔</b>
+
+Open room : light
+Closed room : dark
+
+() is something like o so this will used for Open interval ..
+[] is something like a closed box so this will used for closed interval ..
+
+
+
+
+<b>SUPERSET↩️</b>
+
+⁃	Let A and B are two sets and all the elements of set B are also in the set A , 
+                then B is the superset of A ..
+
+⁃	Superset is denoted by symbol “⊃” ..
+
+⁃	Every set is superset of itself ..
+
+⁃	Every set is superset of empty set ..
+
+Example of superset 👇 : 
+A = { 1 , 2 , 3 }      and       B = { 1 , 2 , 3 , 4 } 
+B ⊃ A
+
+
+
+<b>POWER SET💪🏻</b>
+
+⁃	The set of all subsets of the given set is known as power set of A ..
+
+⁃	This is denoted by P(A) ..
+
+⁃	If set A has n elements , then it’s power set P(A) ..
+
+Example of power set : 
+let set A = { 1 , 2 , 3 } 
+then P(A) =  φ , { 1 } , { 2 } , { 3 } , { 1 , 2 } , { 2 , 3 } , { 1 , 3 } , { 1 , 2 , 3 } 
+
+
+
+
+<b>UNIVERSAL SET🌎</b>
+
+⁃	The set containing all elements of other sets including its own elements ..
+
+⁃	This can be finite or infinite ..
+
+⁃	All the sets are subset of universal set ..
+
+⁃	This is denoted by symbol U ..
+
+Example of universal set 👇 :
+The set of real numbers is a universal set of integers, rational numbers , irrational numbers ..
+
+
+
+<b>VENN DIAGRAM📈</b>
+
+⁃	Venn diagram is introduced by John Venn ..
+⁃	Venn diagram is also called set diagram or logic diagram ..
+⁃	The universal set (U) is represent by a closed rectangle ..
+⁃	This rectangle consists all the sets ..
+⁃	The sets and subsets are shown by using circle or oval shapes ..
+⁃	The elements inside the U are shown by a dot (•) ..
+⁃	Venn diagram shows the relation between the sets of (natural numbers and integers) etc ..
+⁃	Venn diagram show the operations of sets like :- intersection of sets , union of sets and 
+                difference of sets ( we will discuss about it on another topic ) ..
+
+
+
+
+<b>VENN DIAGRAM :</b>
+ 
+<img src="https://www.math-only-math.com/images/subset-of-the-universal-set.jpg"  style="width:450px;height:400px;" >
+
+<b>OPERATIONS OF SETS🔪</b>
+
+
+•	Complement of set
+•	Intersection of set
+•	Union of set
+•	Difference of set
+
+<b>COMPLEMENT OF SET🤮 </b>
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqSGN638DrOkzAlxYnGnKg1Y_xftcO-BKsG72hF_N21VZ3a3SZiUpzh174svE5_NhgfnQ&usqp=CAU"  style="width:550px;height:400px;" >
+
+⁃	A’ is the complement set of A . this contain the elements of set A’ ..
+
+⁃	complement set is denoted by A power c..
+
+⁃	A + A’ = U ..
+
+⁃	Complement set is a set itself ..
+
+⁃	A’ = { x : x ∈ U and x ∉ A } ..
+
+Example of complement set 👇 :
+U = { 1 , 2 , 3 , 4 …}   and A = { 2 , 4 , 6 , 8 … } then A’ = { 1 , 3 , 5 , 7 … }
+
+<b>PROPERTIES OF COMPLEMENT SET</b>
+
+•	A ∪ A’ = U                                   Complement laws
+•	A ∩ A’=  φ                                          
+•             ( A ∪ B )’ = A’ ∩ B’                        De Morgan’s laws
+•	(A ∩ B)’  = A’ ∪ B’
+•	U’ = φ                                         Complement of  U and φ                                     
+•	φ‘ = U
+•	(A’)’ = A                                       Law of double complementation
+
+
+
+<b>INTERSECTION OF TWO SETS🔀</b>
+ 
+<img src="https://www.math-only-math.com/images/examples-of-intersection-of-sets.png"  style="width:450px;height:400px;" >
+
+⁃	The intersection of two sets is written as  ‘∩‘  ..
+
+⁃	Basically Intersection of two sets containing the common elements of both the sets ..
+
+Example of intersection of two sets 👇 :
+A = { 1 , 2 , 3 , 4 }     B = { 3 , 2 , 5 , 8 }
+Then A ∩ B = { 3 , 2 }
+
+
+<b>PROPERTIES OF INTERSECTION OF TWO SETS :</b>
+
+•	A ∩ B = B ∩ A                                      Commutative law
+•	(A ∩ B) ∩ C = A ∩ (B ∩ C)                  Associative law
+•	φ ∩ A = φ
+•	U ∩ A = A
+•	A ∩ A = A                                             Idempotent law
+•	A ∩ (B U C) = (A ∩ B) U (A ∩ C)       Distributive law
+
+
+
+<b>UNION OF SETS🇱🇷</b>
+ 
+<img src="https://www.math-only-math.com/images/xunion-using-venn-diagram.png.pagespeed.ic.wQG12Keke5.png"  style="width:450px;height:400px;" >
+
+⁃	The union of two set is written as U ..
+
+⁃	Union of two sets containing the elements of two sets both the sets ..
+
+Example of union of sets 👇 :
+A = A = { 1 , 2 , 3 , 4 }     B = { 3 , 2 , 5 , 8 }
+Then A U B = { 1 , 2 , 3 , 4 , 5 , 8 }
+
+
+<b>PROPERTIES OF UNION OF SETS :</b>
+
+
+•	A U B = B U A                                Commutative law
+•	(A U B) U C = A U ( B U C )          Associative law
+•	A U  φ = A                                       Law of identity  element
+•	A U A = A                                        Idempotent law
+•	A U U = U                                        Law of universal set
+
+
+
+<b>DIFFERENCES OF SETS 🙆‍♀️ 🧟♀️ </b>
+ 
+<img src="https://files.askiitians.com/cdn1/images/2017317-165034914-9949-6-complement-of-set.png"  style="width:800px;height:400px;" >
+
+⁃	The difference of two sets A and B denoted by A - B ..
+
+⁃	This the set of those elements of A which are not in B ..
+
+Example of difference of sets 👇 :
+A = { 1 , 2 , 3 , 4 , 6 , 12 } and B = { 1 , 2 , 4 , 8 , 16 }
+A-B = { 3 , 6 , 12 } and B - A = { 8 , 16 }
+
+
+        <i> <b><a> <a href=" https://www.youtube.com/watch?v=CeUyzVMwJTI ">ACHA TO HAM CHALTE HAI🚶‍</a> </b></i>
+
+               
+ </pre>
+  
+<p><b> <a> <a href="file:///C:/Users/Owner/Desktop/ncert%20stuffs/Blank%207-1%20(1).pdf">download.pdf</a> </b></p><br><br><br>
+<p8><b> <a>follow on : </a></b> </p8><br><br>
+<p3><b> <a> <a href=" https://instagram.com/_._x._.clusive_._?utm_medium=copy_link ">instagram</a> </b></p3><br>
+
+<p4><b> <a> <a href=" https://twitter.com/exclusive5114 ">twitter</a> </b></p4><br>
+
+<p5><b> <a> <a href=" https://instagram.com/_._imbecile_._?utm_medium=copy_link ">sketch content</a> </b></p5><br>
+
+<p6> <b> <a> <a href=" https://www.youtube.com/channel/UCo6tdwzcz1EQFL015i8A02Q">youtube (lofi) </a> </b></p6><br>
+
+<br><br><br><br>
+
+</html>
